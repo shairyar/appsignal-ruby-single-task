@@ -5,7 +5,7 @@ Appsignal.config = Appsignal::Config.new(
   'development',                              # Application environment
   :name => 'single-task',
   :log_path => 'logs',
-  :lov_level => 'trace'                       # Optional configuration hash
+  :log_level => 'trace'                       # Optional configuration hash
 )
 
 
